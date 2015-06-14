@@ -96,7 +96,6 @@ int getTokenCountByStartIndexs(char *line, int *token_starts) {
 
 		if (pre_status != cur_status || (pre_status == cur_status && cur_status == PUNCT)) {
 
-			//f_f = e_f = 0;
 			token_count++;
 			token_starts[start] = i;
 			start++;
